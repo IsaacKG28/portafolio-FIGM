@@ -31,8 +31,8 @@
                 </li>
               </ul>
               <div class="header__main-ham-menu-cont">
-                <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu">
-                <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none">
+                <img src="./icons/menu.png" alt="hamburger menu" class="header__main-ham-menu">
+                <img src="./icons/cerrar.png" alt="hamburger menu close" class="header__main-ham-menu-close d-none">
               </div>
             </div>
           </div>
@@ -83,39 +83,183 @@
             </div>
             <div class="home-hero__social">
             <a href="" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" rel="noreferrer" target="_blank">
-                <img src="./icons/dede.png" alt="" class="home-hero__social-icon">
+                <img src="./icons/sobre-de-gmail.png" alt="" class="home-hero__social-icon">
             </a>
             </div>
         </div>
     </section>
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p></p>
-    </section>
+    <section id="about">
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <div id="projects-list">
-            <!-- Aquí irán tus proyectos -->
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores nostrum numquam pariatur totam ipsa dolore!
+              </p>
+              <p class="about__content-details-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores nostrum numquam pariatur totam ipsa dolore!
+                <a rel="noreferrer" href="https://linkedin.com/in/rammcodes" target="_blank">Linkedin</a>
+                and
+                <a rel="noreferrer" href="https://instagram.com/rammcodes_" target="_blank">Instagram</a>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores nostrum numquam pariatur totam ipsa dolore!
+              </p>
+              <p class="about__content-details-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores nostrum numquam pariatur totam ipsa dolore!
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">Responsive Web Design</div>
+              <div class="skills__skill">Node</div>
+              <div class="skills__skill">Express</div>
+              <div class="skills__skill">MongoDB</div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <form action="send_message.php" method="POST">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; 2024 FIGM. Todos los derechos reservados.</p>
-    </footer>
+    <section id="projects">
+        <div class="projects">
+            <div class="main-container">
+              <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects</span>
+                <span class="heading-sec__sub">
+                  Here you will find some of the personal and clients projects that I created with each project
+                  containing its own case study
+                </span>
+              </h2>
+              <div class="projects__content">
+                <div class="projects__row">
+                  <div class="projects__row-img-cont">
+                    <img
+                      src="./img/dev-jane.jpg"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                    />
+                  </div>
+                  <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Project 1</h3>
+                    <p class="projects__row-content-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores nostrum numquam pariatur totam ipsa dolore!
+                    </p>
+                    <a
+                      href="project-1.html"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+                      >Case Study</a
+                    >
+                  </div>
+                </div>
+    
+                <div class="projects__row">
+                  <div class="projects__row-img-cont">
+                    <img
+                      src="./img/dev-edward.jpg"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                    />
+                  </div>
+                  <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Project 2</h3>
+                    <p class="projects__row-content-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Asperiores nostrum numquam pariatur totam ipsa dolore!
+                    </p>
+                    <a
+                      href="project-2.html"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+                      >Case Study</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
-    <script src="script.js"></script>
+    <footer class="main-footer">
+        <div class="main-container">
+          <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+              <h2 class="heading heading-sm text-lt">Isaac González Medina</h2>
+              <p class="main-footer__short-desc">
+                Un desarrollador frontend con experiencia en desarrollo web
+              </p>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+              <h2 class="heading heading-sm text-lt">Social</h2>
+              <div class="main-footer__social-cont">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://linkedin.com/in/rammcodes"
+                  class="main-footer__social-icon-cont"
+                >
+                  <img
+                    src="./icons/linkedin-light.png"
+                    alt="LinkedIn"
+                    class="main-footer__social-icon"
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://instagram.com/rammcodes_"
+                  class="main-footer__social-icon-cont"
+                >
+                  <img
+                    src="./icons/instagram-light.png"
+                    alt="Instagram"
+                    class="main-footer__social-icon"
+                  />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://twitter.com/RammCodes"
+                  class="main-footer__social-icon-cont"
+                >
+                  <img
+                    src="./icons/twitter-light.png"
+                    alt="Twitter"
+                    class="main-footer__social-icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="main-footer__lower">
+            &copy; Copyright 2024 Isaac González Medina
+          </div>
+        </div>
+      </footer>
+      <script src="script.js"></script>
 </body>
 </html>
